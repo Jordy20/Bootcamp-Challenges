@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/syntax.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <title>Challenge 3</title>
+</head>
+<body> 
+    
+    <button id="demo" onclick="myFunction()"><h3>Blue</h3></button>
+    <button type="button" class="btn btn-primary pull-right" id="normal" href="#top-right-panel"><p>Box that will be filled with selected color <br>Text will come here<br>Calculation</Box></p></button>
+    <br>
+    <br>
+
+    <button id="green" onclick="myFunction1()"><h3>Green</h3></button>
+
+
+    <br>
+    <br>
+    
+    <button id="red" onclick="myFunction2()"><h3>Red</h3> </button>
+    <br>
+    <br>
+
+
+    
+    
+    
+<script>
+function myFunction() {
+  document.getElementById("normal").style.background = "blue";
+    document.getElementById("normal").innerHTML="HI, my name is Blue";
+    var str = "blue";
+    var n = str.charCodeAt(0);
+    document.getElementById("normal").innerHTML = "HI, my name is Blue ASC=          "+n;
+};
+
+    
+function myFunction1() {
+  document.getElementById("normal").style.background = "green";
+    document.getElementById("normal").innerHTML="HI ,my name is Green";
+    var str = "green";
+    var n = str.charCodeAt(0);
+    document.getElementById("normal").innerHTML = "HI ,my name is Green ASC=         "+n;
+}
+function myFunction2() {
+  document.getElementById("normal").style.background = "red";
+    document.getElementById("normal").innerHTML="HI, my name is Red";
+        var str = "red";
+    var n = str.charCodeAt(0);
+    document.getElementById("normal").innerHTML ="Hi my name is red      ACS=      "+ n;
+}
+    
+    
+</script>
+
+</body>
+</html>
